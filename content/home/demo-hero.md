@@ -26,7 +26,7 @@ design:
 
 **Easily build anything with blocks - no-code required!**
 
-From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
+比如要改这个地方。。。
 
 <!--Custom spacing-->
 <div class="mb-3"></div>
