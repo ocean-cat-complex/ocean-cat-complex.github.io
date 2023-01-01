@@ -14,8 +14,7 @@ role: Associate Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Department of Chemistry
-  Tsinghua University
+  - name: Department of Chemistry, Tsinghua University
     url: https://www.chem.tsinghua.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
