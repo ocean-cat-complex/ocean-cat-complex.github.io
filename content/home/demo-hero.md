@@ -2,7 +2,7 @@
 widget: hero
 headless: true
 weight: 10
-title: Hugo Academic Theme
+title: Chen Yongxiang's Research Group
 hero_media: hero-academic.png
 cta:
   label: '**1**'
