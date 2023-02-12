@@ -9,6 +9,8 @@ last_name: Chen
 # Is this the primary user of the site?
 superuser: true
 
+user_groups: ["Principal Investigator"]
+
 # Role/position/tagline
 role: Associate Professor
 
@@ -22,9 +24,9 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Developing synthetic tools toward protein and peptide with various modifications
+  - Mechanistic elucidation of multi-modifications on protein’s activity in biological events
+  - Biomedical application of protein and peptide
 
 # Education to show in About widget
 education:
@@ -47,21 +49,13 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume.pdf
+    label: my CV
     display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
+      header: false
+
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
