@@ -120,5 +120,8 @@
   </url><url>
     <loc>https://example.com/admin/</loc>
     <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/members/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>
