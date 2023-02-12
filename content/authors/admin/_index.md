@@ -23,23 +23,10 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
-interests:
-  - Developing synthetic tools toward protein and peptide with various modifications
-  - Mechanistic elucidation of multi-modifications on protein’s activity in biological events
-  - Biomedical application of protein and peptide
+
 
 # Education to show in About widget
-education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -71,8 +58,31 @@ email: ''
 highlight_name: true
 ---
 
-Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+YongXiang Chen graduated from Hunan University with a B.S. degree in 2002. Then, she received a Ph.D. degree under the guidance of Prof. Yan-Mei Li from Tsinghua University in 2007 after which she had worked in the group of Prof. Herbert Waldmann at Max-Planck Institution of Molecular Physiology in Dortmund as an Alexander von Humboldt postdoctoral fellow. Since 2011, she has joined Tsinghua University as associate professor in the Department of Chemistry. Since 2016, she has become the tenure-track associate professor (Principal Investigator) in the Department of Chemistry, Tsinghua University. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Her current research interests include: Developing synthetic tools toward protein and peptide with various modifications; Mechanistic elucidation of multi-modifications on protein’s activity in biological events; Biomedical application of protein and peptide.
+She is teaching the courses “Organic Chemistry A2”, “Organic Chemistry H1 Seminar”, and “Chemical Biology” for undergraduates. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+### Honors and Awards
+
+•	Honored with the element “phosphorus” on Periodic Table of Chinese Younger Chemists (2019)  
+•	Honored with “Rising Star” in the 8th Chemical Protein Synthesis Meeting (2019, Berlin)  
+•	Peptide Application Special Awards, the 15th Chinese International Peptide Symposium (2018, Shenzhen)  
+•	“Design Star” Award, the 4th National Competition of Blended Teaching Innovative Design in Chinese Colleges and Universities (2022)  
+•	The 1st prize in the 9th Teaching Contest for Young Teachers in Tsinghua University (2020)  
+
+### Invited Talks
+•	The 12th Chinese National Conference on Chemical Biology, Dalian, China (2023)  
+•	Young Scholar Forum on Chemical Biology, organized by Professional Committee of Chemical Biology, Chinese Chemical Society, Virtual (2023)  
+•	The 14th Australian Peptide Conference, Surfers Paradise, Australia (online talk)   
+•	The 2nd Postdoctoral Annual Academic Conference on Molecular Sciences, Beijing, China (2022)  
+•	Pacifichem 2021— “Advancing Frontiers in Peptide and Protein Science with Nano-to-Macro Molecular Solutions, New Technologies in Polyamide Synthesis and Applications” symposium, Virtual (2021)  
+•	The 16th Chinese International Peptide Symposium, Hefei, China (2020)  
+•	The 11th Chinese National Conference on Chemical Biology, Guangzhou, China (2019)  
+•	HKU Chemical Biology Symposium 2018, Hongkong, China (2018)  
+•	The 7th Sino-German Frontiers of Chemistry Symposium, Munich, Germany (2018)  
+•	The 15th Chinese International Peptide Symposium, Shenzhen, China (2018)  
+•	The 11th National Conference on Phosphorus Chemistry and Chemical Engineering, Wuhan, China (2017)  
+•	Asian Chemical Biology Initiative 2017 Ulaanbaatar Meeting, Ulaanbaatar, Mongolia (2017)  
+•	CCS 11th National Symposium on Natural Organic Chemistry, Shanghai, China (2016)  
+
