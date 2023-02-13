@@ -1,15 +1,15 @@
 ---
 # Display name
-title: Shihao Wang
+title: Huazhen Duan
 
 # Full name (for SEO)
-first_name: Shihao
-last_name: Wang
+first_name: Huazhen
+last_name: Duan
+
+user_groups: ["Graduated Members"]
 
 # Is this the primary user of the site?
 superuser: false
-
-user_groups: ["Group Members"]
 
 # Role/position/tagline
 role: PhD student
@@ -20,20 +20,20 @@ organizations:
     url: https://www.chem.tsinghua.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
-bio: WSH's short introduction.
+#bio: 
 
 # Interests to show in About widget
 interests:
-  - modifications of protein and peptide
-  - Genetic code expansion for uncanonical amino acids with phosphorus groups
-  - stargazing and astro photography!
+  - Genetic code expantion
+  - Phosphine-containing Unnatural Amino Acids
+  - Artificial Metalloprotein Design
 
 # Education to show in About widget
 education:
   courses:
-    - course: BSc in Chemical Biology
+    - course: PhD in Chemistry
       institution: Tsinghua University
-      year: 2021
+      year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -42,7 +42,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'wangsh21@mails.tsinghua.edu.cn'
+    link: ''
   
 
 # Link to a PDF of your resume/CV.
@@ -59,6 +59,6 @@ email: ''
 highlight_name: false
 ---
 
-Here is WSH's full introduction.
+(introduce)
 
 

@@ -1,22 +1,22 @@
 ---
 # Display name
-title: Shihao Wang
+title: Juncheng Wu
 
 # Full name (for SEO)
-first_name: Shihao
-last_name: Wang
+first_name: Juncheng
+last_name: Wu
+
+user_groups: ["Group Members"]
 
 # Is this the primary user of the site?
 superuser: false
 
-user_groups: ["Group Members"]
-
 # Role/position/tagline
-role: PhD student
+role: Undergraduate student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Department of Chemistry, Tsinghua University
+  - name: Zhili College, Tsinghua University
     url: https://www.chem.tsinghua.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
@@ -24,16 +24,15 @@ bio: WSH's short introduction.
 
 # Interests to show in About widget
 interests:
-  - modifications of protein and peptide
-  - Genetic code expansion for uncanonical amino acids with phosphorus groups
-  - stargazing and astro photography!
+  - Protein & peptide synthesis
+  - Peptide functional materials
 
 # Education to show in About widget
 education:
   courses:
-    - course: BSc in Chemical Biology
-      institution: Tsinghua University
-      year: 2021
+    - course: Undergraduate
+      institution: Zhili College, Tsinghua University
+      year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -42,7 +41,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'wangsh21@mails.tsinghua.edu.cn'
+    link: 'wujc20@mails.tsinghua.edu.cn'
   
 
 # Link to a PDF of your resume/CV.
@@ -53,12 +52,13 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'wujc20@mails.tsinghua.edu.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
 
-Here is WSH's full introduction.
+Juncheng Wu was born in Hunan in November 2002 and joined the Chen group in 2022 to start an undergraduate research in Amelogenin. As a member of the first class of Strengthening Foundation Plan, he has a keen interest in chemical biology and peptide science. He has also been President of the first Student Union of Zhili College since October 2022.
+ 
 
 
