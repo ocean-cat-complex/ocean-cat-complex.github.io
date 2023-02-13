@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/authors/wsh/about/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://example.com/talk/example-talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -15,6 +18,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/tag/academic/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/authors/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
