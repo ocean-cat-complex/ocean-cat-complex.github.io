@@ -2,11 +2,11 @@
 widget: hero
 headless: true
 weight: 10
-title: Chen Yongxiang's Research Group
+title: Yongxiang Chen's Research Group
 hero_media: DJI_0031.JPG
-cta:
-  label: '**1**'
-  url: https://wowchemy.com/templates/
+#cta:
+#  label: '**1**'
+#  url: https://wowchemy.com/templates/
 #cta_alt:
 #  label: Ask a question
 #  url: https://discord.gg/z8wNYzb
@@ -15,16 +15,15 @@ cta:
 #    <div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-themes" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Wowchemy Website Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/wowchemy/starter-hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
 design:
   background:
-    gradient_end: '#1976d2'
-    gradient_start: '#004ba0'
-    text_color_light: true
+    color: "#FFFFF0"
+    text_color_light: False
 # advanced:
 #   css_class: fullscreen
 ---
 
-**课题组介绍.**
-
-**课题组介绍2**
+<br />
+<font size=5>Our group seek to develop powerful chemistry-driven toolkits for generating specifically modified proteins and peptides bearing magic natural or artificial chemical moieties, which benefit the mechanistic investigation and biomedical application.
+Our group is very interdisciplinary. Welcome the graduate and undergraduate students who are enthusiastic about protein chemistry and biology to join us!</font>
 
 
 
