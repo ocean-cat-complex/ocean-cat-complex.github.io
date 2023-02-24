@@ -3,7 +3,7 @@ widget: hero
 headless: true
 weight: 10
 title: Yongxiang Chen's Research Group
-hero_media: DJI_0031.JPG
+hero_media: firstpage.png
 #cta:
 #  label: '**1**'
 #  url: https://wowchemy.com/templates/

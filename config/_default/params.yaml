@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Chen Yongxiang research group'
+    notice: '© {year} Yongxiang Chen research group'
     license:
       enable: false
       allow_derivatives: false

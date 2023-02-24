@@ -23,13 +23,14 @@ We mainly focus on three research topics describes as follows.
 
 Both hydrophobic farnesyl moiety and charged phosphate in the flexible region of key signaling proteins, like K-Ras and Rnd3, regulate their cellular distribution and activity, but the molecular mechanism remains debatable and unsolved mainly due to the difficulty of obtaining homogeneous proteins with multi-modifications. 
 We have intended to develop efficient synthetic strategies for accessing to pathological modified proteins by combing chemical and biological synthesis techniques, like K-Ras and Rnd3 simultaneously embodying phosphate, farnesyl moiety and C-terminal methyl ester, which are applied to uncover the regulation mechanism of various modifications on proteins’ interaction network.
-![mechanistic_investigation](mechanistic_investigation.png)
+<center>{{< figure src="mechanistic_investigation.png">}}</center>
 <br>
 
 **II. Synthesis of protein phosphine ligand for metalloprotein design**
 
 Phosphorus at low oxidation state, as the privileged ligand of many renowned transitional metal catalysts, never appears in living organisms to function probably due to its oxygen sensitivity, while natural metalloproteins usually rely on nitrogen, sulfur and oxygen ligands. We have focused on developing bio-synthetic tools for accessing these specifically phosphine-modified proteins, which must overcome the oxygen sensitivity of phosphine, as well as realizing transformation into metalloproteins via phosphine ligand. This platform can enable the rational design of novel artificial metalloenzymes.
-![phosphine](phosphine.png)
+<center>{{< figure src="phosphine.png">}}</center>
+
 
 <br>
 
