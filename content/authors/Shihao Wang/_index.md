@@ -42,7 +42,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'wangsh21@mails.tsinghua.edu.cn'
+    link: mailto:wangsh21@mails.tsinghua.edu.cn
   
 
 # Link to a PDF of your resume/CV.

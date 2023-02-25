@@ -6,7 +6,7 @@ title: Huazhen Duan
 first_name: Huazhen
 last_name: Duan
 
-user_groups: ["Graduated Members"]
+user_groups: ["Group Members"]
 
 # Is this the primary user of the site?
 superuser: false

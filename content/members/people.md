@@ -19,7 +19,7 @@ content:
   user_groups:
     - Principal Investigator
     - Group Members
-    - Graduated Members
+    - Alumni
 
 
 design:

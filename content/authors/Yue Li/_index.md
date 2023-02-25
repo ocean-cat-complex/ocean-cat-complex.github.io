@@ -20,13 +20,11 @@ organizations:
     url: https://www.chem.tsinghua.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
-bio: WSH's short introduction.
+bio: LY's short introduction.
 
 # Interests to show in About widget
 interests:
-  - modifications of protein and peptide
-  - Genetic code expansion for uncanonical amino acids with phosphorus groups
-  - stargazing and astro photography!
+  - 
 
 # Education to show in About widget
 education:
@@ -42,7 +40,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'yue-li20@mails.tsinghua.edu.cn'
+    link: mailto:yue-li20@mails.tsinghua.edu.cn
   
 
 # Link to a PDF of your resume/CV.

@@ -2,7 +2,7 @@
 widget: hero
 headless: true
 weight: 10
-title: Yongxiang Chen's Research Group
+title: YongXiang Chen's Research Group
 hero_media: firstpage.png
 #cta:
 #  label: '**1**'
@@ -22,7 +22,8 @@ design:
 ---
 
 <br />
-<font size=5>Our group seek to develop powerful chemistry-driven toolkits for generating specifically modified proteins and peptides bearing magic natural or artificial chemical moieties, which benefit the mechanistic investigation and biomedical application.
+<font size=5>We seek to develop powerful chemistry-driven toolkits for generating specifically modified proteins and peptides bearing magic natural or artificial chemical moieties, which benefit the mechanistic investigation and biomedical application.
+
 Our group is very interdisciplinary. Welcome the graduate and undergraduate students who are enthusiastic about protein chemistry and biology to join us!</font>
 
 

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yongxiang Chen
+title: YongXiang Chen
 
 # Full name (for SEO)
 first_name: Yongxiang
@@ -12,15 +12,15 @@ superuser: true
 user_groups: ["Principal Investigator"]
 
 # Role/position/tagline
-role: Associate Professor
+role: Principal Investigator, Associate Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Department of Chemistry, Tsinghua University
-    url: https://www.chem.tsinghua.edu.cn
+    url: https://www.chem.tsinghua.edu.cn/chemen/info/1051/1586.htm
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Here's a short bio
 
 # Interests to show in About widget
 
@@ -35,7 +35,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: mailto:chen-yx21@mail.tsinghua.edu.cn
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
@@ -62,6 +62,11 @@ YongXiang Chen graduated from Hunan University with a B.S. degree in 2002. Then,
 
 Her current research interests include: Developing synthetic tools toward protein and peptide with various modifications; Mechanistic elucidation of multi-modifications on protein’s activity in biological events; Biomedical application of protein and peptide.
 She is teaching the courses “Organic Chemistry A2”, “Organic Chemistry H1 Seminar”, and “Chemical Biology” for undergraduates. 
+
+
+Web of Science ResearcherID: D-4792-2017 https://www.webofscience.com/wos/author/record/D-4792-2017 <br>
+ORCID: 0000-0003-3518-0139
+
 
 ### Honors and Awards
 
