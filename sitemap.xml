@@ -115,13 +115,13 @@
     <loc>/members/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/research/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/publication_types/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/publications/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/research/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/authors/yongxiang-chen/</loc>
