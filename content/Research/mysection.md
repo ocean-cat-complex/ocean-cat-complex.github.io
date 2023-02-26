@@ -2,6 +2,8 @@
 widget: blank
 headless: true
 
+
+
 # ... Put Your Section Options Here (title etc.) ...
 title: Research
 subtitle:
@@ -10,6 +12,9 @@ weight: 10  # section position on page
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
+  background:
+    color: "#FFFFF0"
+    text_color_light: False
 ---
 Protein is the key player of tremendous life activities, which are achieved through the interaction network of protein with different biomolecules. Our research group have great interests in natural or artificial modifications on protein sequence composed of canonical amino acids, which endow it with largely expanded properties and function. Both mechanistic elucidation of natural modifications’ regulation and modulation of protein-biomolecules interaction for biomedical purpose urgently require structure-defined homogeneous modified proteins and peptides. 
 We mainly focus on three research topics describes as follows.

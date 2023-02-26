@@ -27,7 +27,6 @@ design:
 Our group is very interdisciplinary. Welcome the graduate and undergraduate students who are enthusiastic about protein chemistry and biology to join us!</font>
 
 
-
 <!--Custom spacing-->
 <div class="mb-3"></div>
 <!--GitHub Button JS-->

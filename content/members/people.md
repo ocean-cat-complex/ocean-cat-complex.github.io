@@ -5,6 +5,8 @@ active: true
 
 headless: true  # This file represents a page section.
 
+
+
 weight: 10
 # ... Put Your Section Options Here (title etc.) ...
 title: Meet Our Members
@@ -31,4 +33,7 @@ design:
   show_role: true
   # Show user's organizations/affiliations?
   show_organizations: false
+  background:
+    color: "#FFFFF0"
+    text_color_light: False
 ---

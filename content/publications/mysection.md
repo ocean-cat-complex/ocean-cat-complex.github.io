@@ -10,6 +10,9 @@ weight: 10  # section position on page
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
+  background:
+    color: "#FFFFF0"
+    text_color_light: False
 ---
 <center>(in inverse chronological order, since 2016-present, as corresponding author <sup>*</sup>)</center>
 <br>
