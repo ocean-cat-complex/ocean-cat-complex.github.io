@@ -11,6 +11,7 @@ superuser: false
 
 user_groups: ["Group Members"]
 
+weight: 40
 # Role/position/tagline
 role: PhD student
 

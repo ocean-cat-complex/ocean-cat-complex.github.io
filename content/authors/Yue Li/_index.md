@@ -8,6 +8,7 @@ last_name: Li
 
 user_groups: ["Group Members"]
 
+weight: 20
 # Is this the primary user of the site?
 superuser: false
 

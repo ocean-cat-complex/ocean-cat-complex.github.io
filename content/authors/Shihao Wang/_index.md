@@ -10,6 +10,7 @@ last_name: Wang
 superuser: false
 
 user_groups: ["Group Members"]
+weight: 30
 
 # Role/position/tagline
 role: PhD student
@@ -59,6 +60,6 @@ email: ''
 highlight_name: false
 ---
 
-Here is WSH's full introduction.
+Wang Shihao received his B.S. degree from the Department of Chemistry of Tsinghua University in 2021, and continued to study for Ph.D degree. His research interests mainly focus on the chemical synthesis of modified peptide and protein, as well as protein functionalization through genetic codon expansion (GCE). In his spare time, he also likes stargazing and astromical photography.
 
 
