@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/authors/huazhen-duan/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/authors/yue-li/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/authors/shihao-wang/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/authors/bodan-deng/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/talk/example-talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -97,12 +109,6 @@
     <loc>/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/authors/bodan-deng/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/authors/huazhen-duan/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/authors/juncheng-wu/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -118,13 +124,7 @@
     <loc>/publications/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/authors/shihao-wang/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/authors/yongxiang-chen/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/authors/yue-li/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
