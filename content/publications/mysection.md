@@ -11,7 +11,12 @@ design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
 ---
-1.	Liu Dong<sup>#</sup>, Liu Yingying<sup>#</sup>, Duan Hua-Zhen, Chen Xinjie, Wang Yanan, Wang Ting, Yu Qing, __<u>Chen Yong-Xiang</u>__<sup>*</sup>, & Lu Yuan<sup>#</sup>. (2023). Customized synthesis of phosphoprotein bearing phosphoserine or its nonhydrolyzable analog. Synthetic and Systems Biotechnology, 8(1), 69-78. 
+<center>(in inverse chronological order, since 2016-present, as corresponding author <sup>*</sup>)</center>
+<br>
+<br>
+<font size=4>
+
+1.	Liu Dong<sup>#</sup>, Liu Yingying<sup>#</sup>, Duan Hua-Zhen, Chen Xinjie, Wang Yanan, Wang Ting, Yu Qing, __<u>Chen Yong-Xiang</u>__<sup>\*</sup>, & Lu Yuan<sup>#</sup>. (2023). Customized synthesis of phosphoprotein bearing phosphoserine or its nonhydrolyzable analog. Synthetic and Systems Biotechnology, 8(1), 69-78. 
   https://doi.org/10.1016/j.synbio.2022.11.004 
 <center>{{< figure src="1.png">}}</center>
 
@@ -92,3 +97,4 @@ design:
  
 26.	He Yao-Hui, Li Yan-Mei, & __<u>Chen Yong-Xiang</u>__<sup>\*</sup>. (2016). Phosphorylation regulates proteolytic efficiency of TEV protease detected by a 5(6)-carboxyfluorescein-pyrene based fluorescent sensor. Talanta, 150, 340-345. https://doi.org/10.1016/j.talanta.2015.12.028
 <center>{{< figure src="26.png">}}</center>
+</font>
