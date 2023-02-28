@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Yongxiang Chen research group'
+    notice: '© {year} Yongxiang Chen research group <br> Life Science Building 332, Tsinghua University, Beijing 100084'
     license:
       enable: false
       allow_derivatives: false

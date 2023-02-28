@@ -17,6 +17,8 @@ role: MD student
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: Department of Urology, Peking Union Medical College
+    url: ""
   - name: Department of Chemistry, Tsinghua University
     url: https://www.chem.tsinghua.edu.cn
 
