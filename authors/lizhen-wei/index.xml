@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LiZhen Wei | YongXiang Chen Group</title>
+    <link>/authors/lizhen-wei/</link>
+      <atom:link href="/authors/lizhen-wei/index.xml" rel="self" type="application/rss+xml" />
+    <description>LiZhen Wei</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/authors/lizhen-wei/avatar_hua4e64fdc97cdb020e34ddc01da5ac1c0_3766138_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>LiZhen Wei</title>
+      <link>/authors/lizhen-wei/</link>
+    </image>
+    
+  </channel>
+</rss>

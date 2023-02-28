@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZhiJun Zhang | YongXiang Chen Group</title>
+    <link>/authors/zhijun-zhang/</link>
+      <atom:link href="/authors/zhijun-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>ZhiJun Zhang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/authors/zhijun-zhang/avatar_hu9d05b6771eb92f7067d4aaeedc9c8972_4981179_270x270_fill_lanczos_center_3.png</url>
+      <title>ZhiJun Zhang</title>
+      <link>/authors/zhijun-zhang/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -14,6 +14,15 @@
     <loc>/authors/bodan-deng/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>/authors/lizhen-wei/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/authors/zhijun-zhang/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/authors/juncheng-wu/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/talk/example-talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -107,9 +116,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/admin/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/authors/juncheng-wu/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/members/</loc>
