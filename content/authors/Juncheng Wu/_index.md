@@ -1,12 +1,14 @@
 ---
 # Display name
-title: Juncheng Wu
+title: JunCheng Wu
 
 # Full name (for SEO)
-first_name: Juncheng
+first_name: JunCheng
 last_name: Wu
 
 user_groups: ["Group Members"]
+
+weight: 60
 
 # Is this the primary user of the site?
 superuser: false
@@ -41,7 +43,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'wujc20@mails.tsinghua.edu.cn'
+    link: mailto:wujc20@mails.tsinghua.edu.cn
   
 
 # Link to a PDF of your resume/CV.

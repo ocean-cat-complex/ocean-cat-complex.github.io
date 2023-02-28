@@ -21,7 +21,7 @@ content:
   user_groups:
     - Principal Investigator
     - Group Members
-    - Alumni
+    
 
 
 design:

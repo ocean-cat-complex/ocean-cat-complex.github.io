@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Shihao Wang
+title: ShiHao Wang
 
 # Full name (for SEO)
-first_name: Shihao
+first_name: ShiHao
 last_name: Wang
 
 # Is this the primary user of the site?

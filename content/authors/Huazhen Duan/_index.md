@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Huazhen Duan
+title: HuaZhen Duan
 
 # Full name (for SEO)
-first_name: Huazhen
+first_name: HuaZhen
 last_name: Duan
 
 user_groups: ["Group Members"]
