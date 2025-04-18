@@ -61,7 +61,6 @@ highlight_name: true
 YongXiang Chen graduated from Hunan University with a B.S. degree in 2002. Then, she received a Ph.D. degree under the guidance of Prof. Yan-Mei Li from Tsinghua University in 2007 after which she had worked in the group of Prof. Herbert Waldmann at Max-Planck Institution of Molecular Physiology in Dortmund as an Alexander von Humboldt postdoctoral fellow. Since 2011, she has joined Tsinghua University as associate professor in the Department of Chemistry. Since 2016, she has become the tenure-track associate professor (Principal Investigator) in the Department of Chemistry, Tsinghua University. Since 2023, she has become the tenured associate professor.
 
 Her current research interests include: Developing synthetic tools toward protein and peptide with various modifications; Mechanistic elucidation of multi-modifications on protein’s activity in biological events; Biomedical application of protein and peptide.
-She is teaching the courses “Organic Chemistry A2”, “Organic Chemistry H1 Seminar”, and “Chemical Biology” for undergraduates. 
 
 She is teaching the courses “Organic Chemistry A1”, “Organic Chemistry H1 Seminar”, and “Chemical Biology” for undergraduates. 
 
