@@ -58,18 +58,21 @@ email: ''
 highlight_name: true
 ---
 
-YongXiang Chen graduated from Hunan University with a B.S. degree in 2002. Then, she received a Ph.D. degree under the guidance of Prof. Yan-Mei Li from Tsinghua University in 2007 after which she had worked in the group of Prof. Herbert Waldmann at Max-Planck Institution of Molecular Physiology in Dortmund as an Alexander von Humboldt postdoctoral fellow. Since 2011, she has joined Tsinghua University as associate professor in the Department of Chemistry. Since 2016, she has become the tenure-track associate professor (Principal Investigator) in the Department of Chemistry, Tsinghua University. 
+YongXiang Chen graduated from Hunan University with a B.S. degree in 2002. Then, she received a Ph.D. degree under the guidance of Prof. Yan-Mei Li from Tsinghua University in 2007 after which she had worked in the group of Prof. Herbert Waldmann at Max-Planck Institution of Molecular Physiology in Dortmund as an Alexander von Humboldt postdoctoral fellow. Since 2011, she has joined Tsinghua University as associate professor in the Department of Chemistry. Since 2016, she has become the tenure-track associate professor (Principal Investigator) in the Department of Chemistry, Tsinghua University. Since 2023, she has become the tenured associate professor.
 
 Her current research interests include: Developing synthetic tools toward protein and peptide with various modifications; Mechanistic elucidation of multi-modifications on protein’s activity in biological events; Biomedical application of protein and peptide.
 She is teaching the courses “Organic Chemistry A2”, “Organic Chemistry H1 Seminar”, and “Chemical Biology” for undergraduates. 
+
+She is teaching the courses “Organic Chemistry A1”, “Organic Chemistry H1 Seminar”, and “Chemical Biology” for undergraduates. 
 
 
 Web of Science ResearcherID: D-4792-2017 https://www.webofscience.com/wos/author/record/D-4792-2017 <br>
 ORCID: 0000-0003-3518-0139
 
-
 ### Honors and Awards
 
+•	“Design Star” Award, the 4th National Competition of Blended Teaching Innovative Design in Chinese Colleges and Universities (2022)
+•	The 1st prize in the 9th Teaching Contest for Young Teachers in Tsinghua University (2020)
 •	Honored with the element “phosphorus” on Periodic Table of Chinese Younger Chemists (2019)  
 •	Honored with “Rising Star” in the 8<sup>th</sup> Chemical Protein Synthesis Meeting (2019, Berlin)  
 •	Peptide Application Special Awards, the 15<sup>th</sup> Chinese International Peptide Symposium (2018, Shenzhen)  

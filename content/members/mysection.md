@@ -17,9 +17,11 @@ design:
     text_color_light: False
 ---
 <br>
+
 <div style="display:flex;">
     <div style="flex:3;">
         <div style="display:flex; justify-content:center; align-items:center;">
+        Hua-Zhen Duan <br>
         Rong Chang <br>
         Jun Hu<br>
         YunLai Zhang<br>
@@ -36,6 +38,7 @@ design:
     </div>
     <div style="flex:1;">
         <div style="display:flex; justify-content:center; align-items:center;">
+        2019-2023<br>
         2017-2022<br>
         2016-2021<br>
         2017-2020<br>
@@ -52,6 +55,7 @@ design:
     </div>
     <div style="flex:3;">
         <div style="display:flex; justify-content:center; align-items:center;">
+        <br>
         changrong_up@163.com<br>
         caroline_hj@126.com<br>
         1304671507@qq.com<br>
@@ -62,6 +66,5 @@ design:
         </div>
     </div>
 </div>
-
 
 
