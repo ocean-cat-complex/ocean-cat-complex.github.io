@@ -13,12 +13,12 @@ user_groups: ["Group Members"]
 
 weight: 50
 # Role/position/tagline
-role: Undergraduate student
+role: PhD student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Tongji University
-    url: 
+  - name: Department of Chemistry, Tsinghua University
+    url: https://www.chem.tsinghua.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
 bio: WLZ's short introduction.
@@ -30,9 +30,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Undergraduate
+    - course: BSc in Chemistry
       institution: Tongji University
-      year: 2019
+      year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons

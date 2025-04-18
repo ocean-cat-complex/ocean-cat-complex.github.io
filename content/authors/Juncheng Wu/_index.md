@@ -32,7 +32,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Undergraduate
+    - course: BSc in Chemistry, 2024
       institution: Zhili College, Tsinghua University
       year: 2020
 
