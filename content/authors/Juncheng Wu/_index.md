@@ -14,15 +14,15 @@ weight: 60
 superuser: false
 
 # Role/position/tagline
-role: Undergraduate student
+role: PhD student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Zhili College, Tsinghua University
+  - name: Department of Chemistry, Tsinghua University
     url: https://www.chem.tsinghua.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
-bio: WSH's short introduction.
+bio: WJC's short introduction.
 
 # Interests to show in About widget
 interests:
