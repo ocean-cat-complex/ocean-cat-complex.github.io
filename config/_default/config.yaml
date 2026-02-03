@@ -1,77 +1,47 @@
-# Configuration of Hugo
-# Guide: https://wowchemy.com/docs/getting-started/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# Hugo Configuration - YongXiang Chen Research Group
+title: "YongXiang Chen Research Group"
+baseURL: "/"
+languageCode: "en-us"
+defaultContentLanguage: "en"
 
-title: YongXiang Chen Group # Website name
-baseURL: '/' # Website URL
-
-############################
-## LANGUAGE
-############################
-
-defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
-removePathAccents: true
-
-############################
-## MODULES
-############################
-
-module:
-  proxy: https://goproxy.cn
-  imports:
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
- 
-
-############################
-## ADVANCED
-############################
-
-enableGitInfo: false
-summaryLength: 30
-paginate: 10
-enableEmoji: true
+# Build settings
 enableRobotsTXT: true
-footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+enableEmoji: true
+enableGitInfo: false
+
+# Pagination
+pagination:
+  pagerSize: 10
+
+# Permalinks
 permalinks:
-  event: '/talk/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
-disableAliases: true
-outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
-  section: [HTML, RSS]
-imaging:
-  resampleFilter: lanczos
-  quality: 75
-  anchor: smart
-timeout: 600000
-taxonomies:
-  tag: tags
-  category: categories
-  publication_type: publication_types
-  author: authors
+  posts: "/posts/:slug/"
+
+# Menu
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Research"
+      url: "/research/"
+      weight: 2
+    - name: "Members"
+      url: "/members/"
+      weight: 3
+    - name: "Publications"
+      url: "/publications/"
+      weight: 4
+
+# Markup
 markup:
-  _merge: deep
-related:
-  threshold: 80
-  includeNewer: true
-  toLower: true
-  indices:
-    - name: tags
-      weight: 100
-    - name: categories
-      weight: 70
-security:
-  _merge: deep
-sitemap:
-  _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github
+
+# Minify
 minify:
-  _merge: deep
+  disableXML: true
+  minifyOutput: true

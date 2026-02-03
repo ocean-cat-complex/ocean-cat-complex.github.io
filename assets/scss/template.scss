@@ -1,9 +1,487 @@
-// Make page header alignment consistent with widget page header alignment
+// =============================================================================
+// Custom Styles for YongXiang Chen Research Group Website
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// CSS Variables for theming (supports light/dark mode)
+// -----------------------------------------------------------------------------
+:root {
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --transition-base: all 0.3s ease;
+  --border-radius: 12px;
+  --section-padding: 60px 0;
+}
+
+// Dark mode adjustments
+.dark {
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+// -----------------------------------------------------------------------------
+// Typography Enhancements
+// -----------------------------------------------------------------------------
 .universal-wrapper h1 {
   text-align: center;
 }
 
-// Center the CTA shortcode button
 .cta-group {
   justify-content: center;
+}
+
+// Better heading styles
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+}
+
+// Research section headings
+.article-container h2 strong,
+.article-container h3 strong {
+  background: linear-gradient(120deg, var(--menu-primary) 0%, var(--menu-primary) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  padding: 0 0.1em;
+}
+
+// -----------------------------------------------------------------------------
+// Hero Section Enhancement
+// -----------------------------------------------------------------------------
+.wg-hero {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  
+  .hero-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+  
+  .hero-lead {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    opacity: 0.9;
+    
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .hero-media img {
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    transition: var(--transition-base);
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--card-shadow-hover);
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Card Styles for General Use
+// -----------------------------------------------------------------------------
+.card,
+.article-card {
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  transition: var(--transition-base);
+  border: none;
+  overflow: hidden;
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--card-shadow-hover);
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Members/People Section Enhancement
+// -----------------------------------------------------------------------------
+.wg-people {
+  .card {
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    transition: var(--transition-base);
+    background: var(--body-bg);
+    
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--card-shadow-hover);
+    }
+  }
+  
+  .avatar {
+    width: 150px !important;
+    height: 150px !important;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: var(--transition-base);
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: var(--transition-base);
+    }
+    
+    &:hover {
+      transform: scale(1.05);
+      
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+  
+  .portrait-title {
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    
+    h3 {
+      font-size: 0.95rem;
+      opacity: 0.8;
+      font-weight: 400;
+    }
+  }
+  
+  // Section title styling
+  .section-heading h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 3px;
+      background: var(--menu-primary);
+      border-radius: 2px;
+    }
+  }
+}
+
+// Group photo styling
+.article-container figure {
+  margin: 2rem 0;
+  
+  img {
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Publications Section Enhancement
+// -----------------------------------------------------------------------------
+.publications-list,
+.wg-blank {
+  .article-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  // Year divider styling
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2.5rem 0 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--menu-primary);
+    opacity: 0.9;
+  }
+  
+  // Publication item styling
+  ol {
+    list-style: none;
+    padding: 0;
+    counter-reset: pub-counter;
+    
+    li, > p {
+      position: relative;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      background: var(--body-bg);
+      border-radius: var(--border-radius);
+      box-shadow: var(--card-shadow);
+      transition: var(--transition-base);
+      border-left: 4px solid var(--menu-primary);
+      
+      &:hover {
+        transform: translateX(5px);
+        box-shadow: var(--card-shadow-hover);
+      }
+    }
+  }
+  
+  // Figure styling within publications
+  figure {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    
+    .dark & {
+      background: rgba(0, 0, 0, 0.2);
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+  }
+}
+
+// Publication text styling
+.pub-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  
+  a {
+    color: var(--menu-primary);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--menu-primary);
+    transition: var(--transition-base);
+    
+    &:hover {
+      border-bottom-style: solid;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Research Section Enhancement
+// -----------------------------------------------------------------------------
+.research-section {
+  .research-topic {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background: var(--body-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    
+    h3, h4 {
+      color: var(--menu-primary);
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+// Research topic cards
+.article-container {
+  p {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+  
+  strong {
+    color: var(--menu-primary);
+  }
+  
+  // Styled figure captions
+  figure {
+    margin: 2rem auto;
+    max-width: 800px;
+    
+    img {
+      border-radius: var(--border-radius);
+      box-shadow: var(--card-shadow);
+      transition: var(--transition-base);
+      
+      &:hover {
+        box-shadow: var(--card-shadow-hover);
+      }
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Navigation Enhancement
+// -----------------------------------------------------------------------------
+.navbar {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  
+  .nav-link {
+    font-weight: 500;
+    transition: var(--transition-base);
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background: var(--menu-primary);
+      transition: var(--transition-base);
+      transform: translateX(-50%);
+    }
+    
+    &:hover::after,
+    &.active::after {
+      width: 80%;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Footer Enhancement
+// -----------------------------------------------------------------------------
+.site-footer {
+  padding: 3rem 0;
+  
+  .powered-by {
+    opacity: 0.7;
+    font-size: 0.9rem;
+  }
+  
+  .copyright-license-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Responsive Adjustments
+// -----------------------------------------------------------------------------
+@media (max-width: 992px) {
+  .wg-hero {
+    min-height: auto;
+    padding: 80px 0;
+  }
+  
+  .wg-people .avatar {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 40px 0;
+  }
+  
+  .wg-hero .hero-title {
+    font-size: 1.8rem;
+  }
+  
+  .article-container {
+    padding: 0 1rem;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Smooth Scroll
+// -----------------------------------------------------------------------------
+html {
+  scroll-behavior: smooth;
+}
+
+// -----------------------------------------------------------------------------
+// Selection Styling
+// -----------------------------------------------------------------------------
+::selection {
+  background: var(--menu-primary);
+  color: white;
+}
+
+// -----------------------------------------------------------------------------
+// Image Styling
+// -----------------------------------------------------------------------------
+img {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+// -----------------------------------------------------------------------------
+// Button Enhancements
+// -----------------------------------------------------------------------------
+.btn {
+  border-radius: 8px;
+  padding: 0.6rem 1.5rem;
+  font-weight: 500;
+  transition: var(--transition-base);
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--card-shadow);
+  }
+}
+
+.btn-primary {
+  background: var(--menu-primary);
+  border-color: var(--menu-primary);
+  
+  &:hover {
+    filter: brightness(1.1);
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Link Styling
+// -----------------------------------------------------------------------------
+.article-container a:not(.btn) {
+  color: var(--menu-primary);
+  text-decoration: none;
+  transition: var(--transition-base);
+  
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Section Spacing
+// -----------------------------------------------------------------------------
+.home-section {
+  padding: var(--section-padding);
+}
+
+// -----------------------------------------------------------------------------
+// Blockquote Styling
+// -----------------------------------------------------------------------------
+blockquote {
+  border-left: 4px solid var(--menu-primary);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+// -----------------------------------------------------------------------------
+// Code Block Styling
+// -----------------------------------------------------------------------------
+pre {
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+}
+
+code {
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
 }

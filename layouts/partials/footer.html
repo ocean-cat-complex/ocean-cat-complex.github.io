@@ -1,0 +1,41 @@
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <!-- About -->
+      <div>
+        <h4 class="footer-heading">YongXiang Chen Research Group</h4>
+        <p class="footer-text">
+          Developing chemistry-driven toolkits for generating specifically modified proteins and peptides.
+        </p>
+      </div>
+      
+        <!-- Contact -->
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <p class="footer-text">
+            Life Science Building 329, Tsinghua University, Beijing 100084<br>
+            <a href="mailto:chen-yx21@mail.tsinghua.edu.cn" style="color: inherit;">chen-yx21@mail.tsinghua.edu.cn</a>
+          </p>
+        </div>
+      
+      <!-- Links -->
+      <div>
+        <h4 class="footer-heading">Links</h4>
+        <div class="footer-links">
+          <a href="https://www.chem.tsinghua.edu.cn" target="_blank" rel="noopener">Department of Chemistry</a>
+          <a href="https://www.tsinghua.edu.cn" target="_blank" rel="noopener">Tsinghua University</a>
+          {{ if .Site.Params.orcid }}
+          <a href="https://orcid.org/{{ .Site.Params.orcid }}" target="_blank" rel="noopener">ORCID</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    
+    <hr class="footer-divider">
+    
+    <div class="footer-copyright">
+      <p>&copy; 2026 Yongxiang Chen Research Group<br>
+      Life Science Building 329, Tsinghua University, Beijing 100084</p>
+    </div>
+  </div>
+</footer>

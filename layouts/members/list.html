@@ -1,0 +1,105 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <h1 class="section-title">Meet Our Members</h1>
+    
+    <div class="container-narrow">
+      <!-- Principal Investigator Section -->
+      <div class="my-12">
+        <h2 class="group-heading">Principal Investigator</h2>
+        
+        {{ $pi := .Site.GetPage "/authors/Yongxiang Chen" }}
+        {{ with $pi }}
+        <a href="{{ .RelPermalink }}" class="pi-card-link">
+          <div class="card pi-card">
+            <div class="pi-section">
+              <div class="pi-avatar-wrap">
+                {{ $avatar := .Resources.GetMatch "avatar.*" }}
+                {{ if $avatar }}
+                <img src="{{ $avatar.RelPermalink }}" alt="{{ .Title }}" class="pi-avatar">
+                {{ else }}
+                <div class="pi-avatar pi-avatar-placeholder">YC</div>
+                {{ end }}
+              </div>
+              <div class="pi-info">
+                <h2>{{ .Title }}</h2>
+                <h3>{{ .Params.role }}</h3>
+                {{ with .Params.organizations }}
+                  {{ range . }}
+                  <p class="pi-org">{{ .name }}</p>
+                  {{ end }}
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        </a>
+        {{ end }}
+      </div>
+      
+      <!-- Group Members Section -->
+      <div class="my-12">
+        <h2 class="group-heading">Group Members</h2>
+        
+        <div class="grid-3">
+          {{ range $name := slice "Shihao Wang" "Bodan Deng" "Lizhen Wei" "Juncheng Wu" }}
+            {{ $member := site.GetPage (printf "/authors/%s" $name) }}
+            {{ with $member }}
+            <a href="{{ .RelPermalink }}" class="member-card-link">
+              <div class="card member-card">
+                {{ $avatar := .Resources.GetMatch "avatar.*" }}
+                {{ if $avatar }}
+                <img src="{{ $avatar.RelPermalink }}" alt="{{ .Title }}" class="member-avatar">
+                {{ else }}
+                <div class="member-avatar member-avatar-placeholder">
+                  {{ substr .Title 0 2 }}
+                </div>
+                {{ end }}
+                <h3 class="member-name">{{ .Title }}</h3>
+                <p class="member-role">{{ .Params.role }}</p>
+              </div>
+            </a>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      
+      <!-- Group Photo Section -->
+      <div class="my-12">
+        <div class="text-center">
+          <img src="/media/group_photo.jpg" alt="Chen Lab Group Photo" class="group-photo">
+        </div>
+      </div>
+      
+      <!-- Alumni Section -->
+      <div class="my-12">
+        <h2 class="group-heading">Alumni</h2>
+        
+        <div class="card p-8">
+          <table class="alumni-table">
+            <tbody>
+              <tr><td>Yue Li</td><td>2020-2025</td><td></td></tr>
+              <tr><td>ZhiJun Zhang</td><td>2022-2025</td><td></td></tr>
+              <tr><td>Hua-Zhen Duan</td><td>2019-2023</td><td></td></tr>
+              <tr><td>Rong Chang</td><td>2017-2022</td><td>changrong_up@163.com</td></tr>
+              <tr><td>Jun Hu</td><td>2016-2021</td><td>caroline_hj@126.com</td></tr>
+              <tr><td>YunLai Zhang</td><td>2017-2020</td><td>1304671507@qq.com</td></tr>
+              <tr><td>PengCheng Zhu</td><td>2017-2020</td><td>zhupc17@tsinghua.org.cn</td></tr>
+              <tr><td>BeiBei Han</td><td>2017-2020</td><td>18317894536@163.com</td></tr>
+              <tr><td>Qing Yu</td><td>2015-2020</td><td>jessie_qingyu@126.com</td></tr>
+              <tr><td>FangYi Li</td><td>2013-2019</td><td>yaphets910531@163.com</td></tr>
+              <tr><td>HongXue Chen</td><td>2015-2018</td><td></td></tr>
+              <tr><td>SiYu Zhang</td><td>2012-2017</td><td></td></tr>
+              <tr><td>Jie Kang</td><td>2015-2017</td><td></td></tr>
+              <tr><td>Lei Li</td><td>2014-2016</td><td></td></tr>
+              <tr><td>YaoHui He</td><td>2012-2016</td><td></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+{{ end }}

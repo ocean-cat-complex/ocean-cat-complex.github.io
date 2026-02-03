@@ -38,7 +38,7 @@ social:
     link: mailto:chen-yx21@mail.tsinghua.edu.cn
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: /uploads/resume.pdf
     label: my CV
     display:
       header: false

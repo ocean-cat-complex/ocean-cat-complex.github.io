@@ -1,4 +1,4 @@
-name: PUBLISH_TO_gh
+name: Deploy to GitHub Pages
 on:
   push:
     branches:
@@ -7,21 +7,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@master
-        with:
-          submodules: true
+      - name: Checkout
+        uses: actions/checkout@v4
+        
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.105.0'
+          hugo-version: 'latest'
           extended: true
+          
       - name: Build
-        run: hugo
-      # - name: Add CNAME file
-      #   run: echo 'agou-ops.cn' > public/CNAME
+        run: hugo --minify
+        
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          cname: chenyx.group
