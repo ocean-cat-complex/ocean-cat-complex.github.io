@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ShiHao Wang | YongXiang Chen Group</title>
+    <title>ShiHao Wang on YongXiang Chen Research Group</title>
     <link>/authors/shihao-wang/</link>
-      <atom:link href="/authors/shihao-wang/index.xml" rel="self" type="application/rss+xml" />
-    <description>ShiHao Wang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
-    <image>
-      <url>/authors/shihao-wang/avatar_hu756ae419dca872ecfcac293f58082c63_1340063_270x270_fill_q75_lanczos_center.jpeg</url>
-      <title>ShiHao Wang</title>
-      <link>/authors/shihao-wang/</link>
-    </image>
-    
+    <description>Recent content in ShiHao Wang on YongXiang Chen Research Group</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/authors/shihao-wang/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

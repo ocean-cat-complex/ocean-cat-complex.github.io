@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JunCheng Wu | YongXiang Chen Group</title>
+    <title>JunCheng Wu on YongXiang Chen Research Group</title>
     <link>/authors/juncheng-wu/</link>
-      <atom:link href="/authors/juncheng-wu/index.xml" rel="self" type="application/rss+xml" />
-    <description>JunCheng Wu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
-    <image>
-      <url>/authors/juncheng-wu/avatar_huc69a034644709190d19b701f914ee743_774878_270x270_fill_q75_lanczos_center.jpeg</url>
-      <title>JunCheng Wu</title>
-      <link>/authors/juncheng-wu/</link>
-    </image>
-    
+    <description>Recent content in JunCheng Wu on YongXiang Chen Research Group</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/authors/juncheng-wu/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
