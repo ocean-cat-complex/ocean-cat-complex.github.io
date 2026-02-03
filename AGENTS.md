@@ -53,7 +53,7 @@ Automatic via GitHub Actions on push to `main` branch.
 ├── static/
 │   ├── css/style.css    # All custom CSS
 │   ├── js/main.js       # Dark mode, mobile menu, animations
-│   └── media/           # Images (copied from assets/media/)
+│   └── media/           # Images
 └── go.mod               # Go module (no theme dependencies)
 ```
 

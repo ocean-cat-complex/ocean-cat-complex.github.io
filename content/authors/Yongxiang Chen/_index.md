@@ -29,9 +29,6 @@ bio: Here's a short bio
 
 
 # Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
@@ -45,11 +42,6 @@ social:
 
 
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-# and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -92,4 +84,3 @@ ORCID: 0000-0003-3518-0139
 •	The 11<sup>th</sup> National Conference on Phosphorus Chemistry and Chemical Engineering, Wuhan, China (2017)  
 •	Asian Chemical Biology Initiative 2017 Ulaanbaatar Meeting, Ulaanbaatar, Mongolia (2017)  
 •	CCS 11<sup>th</sup> National Symposium on Natural Organic Chemistry, Shanghai, China (2016)  
-

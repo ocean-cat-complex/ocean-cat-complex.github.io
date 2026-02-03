@@ -1,10 +1,19 @@
 # IDEs
 .idea/
+.DS_Store
 
 # Hugo
 resources/
 public/
 jsconfig.json
+content.zip
+theme.toml
+netlify.toml
+preview.png
+images/
+assets/jsconfig.json
+assets/scss/
+assets/media/
 node_modules/
 go.sum
 .hugo_build.lock

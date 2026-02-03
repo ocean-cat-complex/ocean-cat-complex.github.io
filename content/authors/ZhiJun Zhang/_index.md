@@ -39,18 +39,10 @@ education:
       year: 2022
 
 # Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 
   
 
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-# and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -59,5 +51,4 @@ email: ''
 highlight_name: false
 ---
 Zhijun Zhang, born in December 1996 in Huaibei, Anhui Province, graduated from Dalian Medical University with a degree in clinical medicine. 2022, he joined the Chen group as a MD and started his scientific research  in biomaterials application.
-
 

@@ -35,9 +35,6 @@ education:
       year: 2022
 
 # Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 #social:
 #  - icon: envelope
 #    icon_pack: fas
@@ -45,11 +42,6 @@ education:
   
 
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-# and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -59,5 +51,4 @@ highlight_name: false
 ---
 
 Lizhen Wei was born in Jiangxi in 2001 and will be expected to join the Chen group in September 2023. He has a keen interest in metal complexes based photodynamic therapy. In his spare time, he likes football and jogging.
-
 

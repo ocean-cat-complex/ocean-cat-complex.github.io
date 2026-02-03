@@ -37,9 +37,6 @@ education:
       year: 2024
 
 # Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
@@ -47,11 +44,6 @@ social:
   
 
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-# and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'wujc20@mails.tsinghua.edu.cn'
@@ -62,5 +54,4 @@ highlight_name: false
 
 Juncheng Wu was born in Hunan in November 2002 and joined the Chen group in 2022 to start an undergraduate research in Amelogenin. As a member of the first class of Strengthening Foundation Plan, he has a keen interest in chemical biology and peptide science. He has also been President of the first Student Union of Zhili College since October 2022.
  
-
 
